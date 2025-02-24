@@ -106,3 +106,16 @@ a:active {
   font-style: italic;
   background-color: black;
 }
+/* Id is the most piriority */
+#copyright {
+  color: red;
+}
+.copyright {
+  color: green;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: whitesmoke;
+}
