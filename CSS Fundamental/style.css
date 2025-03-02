@@ -15,6 +15,7 @@ article {
   color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 60px;
 }
 .post-header {
   margin-bottom: 40px;
@@ -26,6 +27,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0px;
+  width: 500px;
 }
 /* h1,
 h2,
@@ -163,3 +165,8 @@ nav {
 nav p {
   font-size: 20px;
 } */
+
+.post-img {
+  height: auto;
+  width: 100%;
+}
