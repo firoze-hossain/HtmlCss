@@ -66,8 +66,8 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
-
   line-height: 1.5;
+  /* display: inline; */
 }
 ul,
 ol {
@@ -77,6 +77,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 li:last-child {
   margin-bottom: 0px;
@@ -166,11 +167,17 @@ nav p {
   font-size: 20px;
 } */
 nav a:link {
-  background-color: orangered;
+  /* background-color: orangered;
   margin: 20px;
   padding: 20px;
 
-  display: block;
+  display: block; */
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
 }
 .post-img {
   height: auto;
