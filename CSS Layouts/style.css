@@ -237,3 +237,9 @@ h2::after {
   float: left;
   margin-bottom: 20px;
 }
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
